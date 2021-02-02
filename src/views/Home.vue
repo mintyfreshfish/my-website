@@ -10,24 +10,24 @@
         </div>
         <div class="body">
             <div class="submenu">
-                <a href="#platforms" v-scroll-to="'#platforms'">
+                <!-- <a href="#platforms" v-scroll-to="'#platforms'"> -->
                     <h5>Platforms</h5>
-                </a>
-                <a href="#hosting" v-scroll-to="'#hosting'">
+                <!-- </a> -->
+                <!-- <a href="#hosting" v-scroll-to="'#hosting'"> -->
                     <h5>Hosting</h5>
-                </a>
-                <a href="#servers" v-scroll-to="'#servers'">
+                <!-- </a> -->
+                <!-- <a href="#servers" v-scroll-to="'#servers'"> -->
                     <h5>Servers</h5>
-                </a>
-                <a href="#languages" v-scroll-to="'#languages'">
+                <!-- </a> -->
+                <!-- <a href="#languages" v-scroll-to="'#languages'"> -->
                     <h5>Languages</h5>
-                </a>
-                <a href="#skills" v-scroll-to="'#skills'">
+                <!-- </a> -->
+                <!-- <a href="#skills" v-scroll-to="'#skills'"> -->
                     <h5>Other Skills</h5>
-                </a>
-                <a href="#classes" v-scroll-to="'#classes'">
+                <!-- </a> -->
+                <!-- <a href="#classes" v-scroll-to="'#classes'"> -->
                     <h5>Current Coursework</h5>
-                </a>
+                <!-- </a> -->
             </div>
             <br>
             <div class="subhead">
@@ -228,12 +228,12 @@
         max-width: 500px;
         margin: 5px auto;
         opacity: 50%;
-        /* transition: opacity 0.8s; */
+        transition: opacity 0.8s;
     }
 
     h5:hover {
         opacity: 100%;
-        /* transition: opacity 0.5s */
+        transition: opacity 0.5s
     }
 
     a:hover {
