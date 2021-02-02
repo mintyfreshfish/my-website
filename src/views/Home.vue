@@ -228,12 +228,12 @@
         max-width: 500px;
         margin: 5px auto;
         opacity: 50%;
-        transition: opacity 0.8s;
+        /* transition: opacity 0.8s; */
     }
 
     h5:hover {
         opacity: 100%;
-        transition: opacity 0.5s
+        /* transition: opacity 0.5s */
     }
 
     a:hover {
