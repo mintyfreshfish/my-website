@@ -227,13 +227,13 @@
         color: #000807;
         max-width: 500px;
         margin: 5px auto;
-        opacity: 50%;
-        /* transition: opacity 0.8s; */
+        opacity: 0.5;
+        transition: opacity 0.8s;
     }
 
     h5:hover {
-        opacity: 100%;
-        /* transition: opacity 0.5s */
+        opacity: 1;
+        transition: opacity 0.5s
     }
 
     a {

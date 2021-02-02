@@ -136,12 +136,12 @@
         display: block;
         margin: auto;
         transition: opacity 0.8s;
-        opacity: 85%;
+        opacity: .85;
 
     }
 
     img:hover {
-        opacity: 100%;
+        opacity: 1;
         transition: opacity 0.5s
     }
 
@@ -186,7 +186,7 @@
     }
 
     .modimage {
-        opacity: 100%;
+        opacity: 1;
     }
 
     .container {
@@ -234,7 +234,7 @@
     }
 
     #headImage {
-        opacity: 100%;
+        opacity: 1;
         max-width: 800px;
         width: 100%;
     }
