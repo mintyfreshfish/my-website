@@ -21,10 +21,6 @@
                     <img src="../assets/teasdale.png" alt="house" />
                     <caption><a href="#">Photography Portfolio</a></caption>
                 </figure>
-                <figure v-b-modal.modal-4-center>
-                    <img src="../assets/bcrjobs.jpg" alt="bcr jobs" />
-                    <caption><a href="#">Black Cyber Recruiter</a></caption>
-                </figure>
                 <figure v-b-modal.modal-5-center>
                     <img src="../assets/groceries.png" alt="grocery icon" />
                     <caption><a href="#">Generic Grocery Store</a></caption>
@@ -32,46 +28,59 @@
 
             </div>
             <div class="section">
+                <div class="sectionHead">
                 <h2>Characterz Café</h2>
+                </div>
                 <p>Characterz Café is a local coffee shop with a comic-book theme. The walls are covered with chalk drawings of Marvel and DC characters, and the counter sports some Doctor Who memorabilia. This website serves as a single page, general site for both regulars and newcomers. Rebecca used vanilla JS which accompanied a Bootstrap theme. The site has a menu for online ordering, and a calendar for events that syncs with the café’s general Google Calendar. The website is designed with the comic book theme in mind, pulling from Marvel colors and comic-style pictures. Currently, this prototype is hosted on an Amazon EC2 instance using apache.</p>
                 <a href="http://18.212.64.149/Characterz/templates/scroller/characterz.html">
                     <b-button class="sendbtn">See for Yourself</b-button>
                 </a>
             </div>
             <div class="section">
-                <h2>Weather App</h2>
+                <div class="sectionHead">
+                                        <a href="https://github.com/BYU-CS-260-Winter-2020/lab-2-weather-app-mintyfreshfish"><img src="../assets/githubblack.png"></a>
+                    <h2>Weather App</h2>
+
+                </div>
                 <p>This weather app utilizes a simple API to tell the weather in a given city. This site is made with vanilla javascript along with HTML and CSS and Bootstrap elements. Notice that the title will change with the time of day, greeting you with the proper phrase "Good Morning," "Good Afternoon," or "Good Evening." This site is hosted on an Amazon EC2 instance.</p>
             <a href="http://18.212.64.149">
                     <b-button class="sendbtn">Visit the Site</b-button>
                 </a>
             </div>
             <div class="section">
-                <h2>Lina Golden Books</h2>
+                <div class="sectionHead">
+                    <h2>Lina Golden Books</h2>
+                </div>
                 <p>Lina Golden is an up-and-coming author who just released her first book, Love at First Loot. Her website serves to market her book, as well as give Lina a connection with her readers. This site was created on Wordpress and hosted through DreamHost. Rebecca consulted with Lina about branding, design, and functionality while building the site, and oversaw her development team as they completed her brief. Lina now manages the website on her own through the Wordpress infrastructure.</p>
                 <a href="http://www.linagoldenbooks.com">
                     <b-button class="sendbtn">Take a Look</b-button>
                 </a>
             </div>
             <div class="section">
-                <h2>Photography Portfolio</h2>
+                <div class="sectionHead">
+                                            <a href="https://github.com/mintyfreshfish/photography-website"><img src="../assets/githubblack.png"></a>
+                    <h2>Photography Portfolio</h2>
+                </div>
                 <p>This generic photography site includes a login for users to see their own, uploaded pictures. The site was built with Vue and Node. It is hosted on Digital Ocean with NGINX.</p>
             <a href="https://photobomb.misplacedmusings.com">
                     <b-button class="sendbtn">Don't Believe Me?</b-button>
                 </a>
             </div>
             <div class="section">
-                <h2>Black Cyber Recruiter</h2>
-                <p>Black Cyber Recruiter is a fictional business similar to LinkedIn, but targeted towards minorities, specifically Blacks. This site uses machine learning to match job searchers to companies, companies, to job searchers, and job searchers to job positions. Rebecca worked on a skilled development team to build the site using Django, postgres, and azure studios. Rebecca implemented design elements to give the site its professional look.</p>
-            <a href="http://bcrjobs.herokuapp.com">
-                    <b-button class="sendbtn">I Dare You</b-button>
-                </a>
-            </div>
-            <div class="section">
-                <h2>Generic Grocery Store</h2>
+                <div class="sectionHead">
+                    <a href="https://github.com/BYU-CS-260-Winter-2020/lab-3b-grocery-store-mintyfreshfish"><img src="../assets/githubblack.png"></a>
+                    <h2>Generic Grocery Store</h2>
+                </div>
                 <p>Mother Earth is a fictional grocery store. This simple site uses Vue to display grocery items for users to add to their cart. Users can also edit their cart and search for specific items. Vue reloads certain parts of a webpage in real time, letting your searches filter through the grocery list in real time instead of needing to refresh the page.</p>
             <a href="https://groceries.misplacedmusings.com">
                     <b-button class="sendbtn">Time for a Test Drive</b-button>
                 </a>
+            </div>
+                        <div class="section">
+                <div class="sectionHead">
+                    <a href="https://github.com/mintyfreshfish/my-website"><img src="../assets/githubblack.png"></a>
+                    <h2>See This Site's Repository</h2>
+                </div>
             </div>
         </div>
         <b-modal id="modal-1-center" hide-footer centered title="Characterz Cafe: One-Page">
@@ -216,15 +225,31 @@
         color: #000807;
         padding: 10px;
         text-align: left;
-        padding-left: 50px;
         font-size: 30px;
-        background-color: rgba(197, 233, 155, 0.3);
-        width: 100%;
     }
 
     .section {
         margin-bottom: 50px;
 
+    }
+
+    .sectionHead {
+        display: flex;
+        justify-content: flex-start;
+        background-color: rgba(197, 233, 155, 0.3);
+        width: 100%;
+        height: 55px;
+        padding-left: 10px;
+    }
+
+    .sectionHead img {
+        height: 100%;
+        padding: 10px;
+        opacity: 0.7;
+    }
+
+        .sectionHead img:hover {
+        opacity: 1;
     }
 
     .html {
