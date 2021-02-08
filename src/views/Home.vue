@@ -68,10 +68,6 @@
                     <p>Wordpress</p>
                 </div>
                 <div class="itemClose">
-                    <img class="logo" src="../assets/aws.png">
-                    <p>Amazon EC2</p>
-                </div>
-                <div class="itemClose">
                     <img class="logo" src="../assets/digital_ocean.png">
                     <p>Digital Ocean</p>
                 </div>
@@ -86,10 +82,6 @@
                 <div class="itemClose">
                     <img class="logo" src="../assets/nginx.png">
                     <p>NGINX</p>
-                </div>
-                <div class="itemClose">
-                    <img style="height: 50px; width: 30px;" class="logo" src="../assets/apache.png">
-                    <p>Apache</p>
                 </div>
                 <div class="itemClose">
                     <img class="logo" src="../assets/mssql.png">
