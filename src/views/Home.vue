@@ -56,10 +56,6 @@
             </div>
             <div class="section">
                 <div class="itemClose">
-                    <img class="logo" src="../assets/django.png">
-                    <p>django</p>
-                </div>
-                <div class="itemClose">
                     <img class="logo" src="../assets/logo.png">
                     <p>Vue</p>
                 </div>
@@ -108,20 +104,8 @@
                     <p>Linux and SSH</p>
                 </div>
                 <div class="itemClose">
-                    <img class="logo" src="../assets/filezilla.png">
-                    <p>Filezilla</p>
-                </div>
-                <div class="itemClose">
-                    <img class="logo" src="../assets/winscp.png">
-                    <p>WinSCP</p>
-                </div>
-                <div class="itemClose">
                     <img class="logo" src="../assets/visual_studio.png">
                     <p>Visual Studio</p>
-                </div>
-                <div class="itemClose">
-                    <img class="logo" src="../assets/vsc.png">
-                    <p>Visual Studio Code</p>
                 </div>
                 <div class="itemClose">
                     <img class="logo" src="../assets/photoshop.png">
